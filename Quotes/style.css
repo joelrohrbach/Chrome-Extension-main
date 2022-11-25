@@ -1,0 +1,42 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 100%;
+    background-image: url("https://cdn.wallpapersafari.com/25/20/lkhZ1g.jpg");
+    background-size: cover;
+}   
+
+p {
+    
+    margin-top: 200px;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    background-color: rgb(63, 61, 61,0.7);
+    color: white;
+    border-radius: 15px;
+    border: 2px solid rgb(106, 167, 196);
+    padding: 10px;
+}
+
+#div1 {
+    text-align: center;
+}
+
+#btn {
+    align-items: center;
+    outline: none;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    margin: 30px 75px;
+    color: rgb(27, 26, 26);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(106, 167, 196);
+}  
+

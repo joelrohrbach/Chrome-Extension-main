@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Alarm Clock",
+  "version": "1.0.0",
+  "description": "This is an hourly alarm clock!",
+  "action": {
+    "default_title": "TICK TOCK!",
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "logo.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "background",
+    "alarms",
+    "notifications",
+    "scripting"
+  ]
+} 
